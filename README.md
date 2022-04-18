@@ -10,6 +10,7 @@ The application pulls data from https://www.metaweather.com/api/ using Retrofit.
 1. The app uses a RecyclerView to display the weather for 5 days.
 2. Retrofit reads data from https://www.metaweather.com/api/, the data is in a form of a JSON.
 3. The data is displayed onto the RecyclerView.
-4. AutoCompleteTextView is used to suggest city names (only limited in this app - 9 cities) and matches the city with its woeid.
+4. The app only fetches the following data; location (city name),woeid, date, the temperate, weather condition and the icon of the weather condition.
+5. AutoCompleteTextView is used to suggest city names (only limited in this app - 9 cities) and matches the city with its woeid.
 
 You can search woeids on https://www.woeids.com/
